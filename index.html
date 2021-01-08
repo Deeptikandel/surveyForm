@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey Form</title>
 </head>
 
 <body>
     <h1 id="title">Travel app survey form</h1>
-    <p id="description">Thanks for taking your time to fill up the forms.</p>
+    <p id="description">Thanks for taking your time to fill up the form.</p>
     <form id="survey-form">
         <label for="name">Name:</label>
-        <input id="name" type="text" name="name" placeholder="travel" required></input>
+        <input id="name" type="text" name="name" placeholder="John" required></input>
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" placeholder="john@example.com" required></input>
+        <br>
+        <label for="number">Age:</label>
+        <input id="number" type="number" name="number" min="18" max="100" placeholder="18" required></input>
     </form>
 
 </body>
