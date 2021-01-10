@@ -2,15 +2,13 @@
 body {
     font-family: 'Poppins';
     line-height: 1.4;
-    background-color: rgb(2, 54, 54);
+    background-color: #d3d3d3;
     width: 500px;
     margin: auto;
-    color: white;
-    ;
 }
 
 form {
-    background: rgb(61, 129, 129);
+    background: #fdd951;
     padding: 2.5rem 2.5rem;
     border-radius: 2rem;
     width: 500px;
@@ -46,9 +44,10 @@ form {
 .submit-button {
     width: 95%;
     padding: 0.75rem;
-    background: rgb(25, 51, 29);
+    background: #18aeed;
     color: white;
     border-radius: 2px;
+    border-color: white;
     cursor: pointer;
 }
 
